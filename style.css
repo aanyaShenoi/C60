@@ -1,0 +1,108 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: #313432;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #f12345;
+}
+body{
+    margin: 0px;
+    background-color: #548579;
+}
+a:link{
+    color:aliceblue
+}
+a:visited{
+    color: antiquewhite;
+}
+origami:hover{
+    
+    transform: scale(1.2);
+}
+.grid img{
+    border: 2px solid #000
+    border-radius: #123456
+}
+.origami {
+
+    border-radius: 20px;
+    background-color: #f12345;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+.header{
+    border: solid;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    }
+    h1{
+        margin: 30px;
+        font-family: cursive;
+    }
+    a{
+        margin: 10px;
+    }
+    .text1{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    h2{
+        font-family: fantasy;
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .text2{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    body{
+    background-color: #123456;
+    }
+    .title{
+    border: solid;
+    background-color: #313432;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+    .project{
+        position: relative;
+    }
+    .project p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+    }
+    .project:hover p{
+        color: ivory;
+        opacity: 2;
+    }
+    .project:hover img{
+        opacity: 0.25;
+    }
+    .socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+    a:link{
+        color: indianred;
+    }
+    a:visited{
+        color: indianred;
+    }
